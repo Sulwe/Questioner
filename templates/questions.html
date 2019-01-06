@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questioner - Questions</title>
+  <link rel="stylesheet" type="text/css" href="../static/style.css">
+
+<script language="javascript">
+function addone(field) {
+field.value = Number(field.value) + 1;
+}
+
+function subtractone(field) {
+field.value = Number(field.value) - 1;
+}
+</script>
+</head>
+    <div class="container">
+    <div class="row">
+      <div class="logo">
+      <img src="../static/logo.png">
+      </div>
+      <ul class="main-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="FAQs.html">FAQs</a></li>
+      </ul>
+    </div>
+  </div>
+    <div class="container2">
+
+    <h1>Questions</h1>
+    <a href="#">Question 1</a>
+    <p>If you are thinking “Hang on a minute! We don’t have all the data we need from the Web server to display the comment” then you are correct. However, this doesn’t stop us writing the code to update the UI and also testing that it works.</p>
+    <form>
+      <div>
+            <textarea rows="3" cols="80" name="comment" form="usrform">
+             Enter comment here...</textarea>
+ 
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+<form>
+<input type="text" name="myfield" value="0" size="5" readonly="readonly"><br>
+<input type="button" value="Up vote! " onclick="addone(myfield);" onclick="this.disabled = true"background="green"> 
+<input type="button" value="Down vote!" onclick="subtractone(myfield);" background="red"><br>
+</form>
+
+    <a href="#">Question 2</a>
+    <p>If you are thinking “Hang on a minute! We don’t have all the data we need from the Web server to display the comment” then you are correct. However, this doesn’t stop us writing the code to update the UI and also testing that it works.</p>
+    <form>
+      <div>
+            <textarea rows="3" cols="80" name="comment" form="usrform">
+             Enter comment here...</textarea>
+ 
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+<form>
+<input type="text" name="myfield" value="0" size="5" readonly="readonly"><br>
+<input type="button" value="Up vote! " onclick="addone(myfield);" onclick="this.disabled = true"background="green"> 
+<input type="button" value="Down vote!" onclick="subtractone(myfield);" background="red"><br>
+</form>
+ 
+    <p>Post your question</p>
+    <form>
+      <div>
+            <textarea rows="5" cols="80" name="comment" form="usrform">
+             Enter question here...</textarea>
+ 
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+
+    
+  <div class="footer">
+    &copy; Copyright 2019 Questioner.org
+  </div>
+
+</div>
+<body>
+</body>
+
+</html>
