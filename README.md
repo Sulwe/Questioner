@@ -12,3 +12,4 @@ Features
 9. A user can reset a password
 
 
+[![Build Status](https://travis-ci.org/Sulwe/Questioner.svg?branch=develop)](https://travis-ci.org/Sulwe/Questioner)
