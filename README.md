@@ -11,4 +11,5 @@ Features
 8. An admin can add tags to a meetup record
 9. A user can reset a password
 
-API endpoints
+
+[![Build Status](https://travis-ci.org/Sulwe/Questioner.svg?branch=develop)](https://travis-ci.org/Sulwe/Questioner)
