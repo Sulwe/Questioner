@@ -10,3 +10,5 @@ Features
 7. An admin can add images to a meetup record
 8. An admin can add tags to a meetup record
 9. A user can reset a password
+
+API endpoints
